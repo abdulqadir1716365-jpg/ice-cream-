@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my shop</title>
+    <link rel="stylesheet" href="raza.css">
+</head>
+<body>
+    <div class="products">
+<div class="product">
+    <h3>pant</h3>
+    <img src="/pant.jfif" alt="">
+    <p>300</p>
+    <button onclick="addToCart ('pant',300)">add</button>
+</div>
+
+<div class="product">
+    <h3>shirt</h3>
+    <img src="/./pent.jfif" alt="">
+    <p>600</p>
+    <button onclick="addToCart ('shirt',600)">add</button>
+</div>
+<div class="product">
+    <h3>shoes</h3>
+    <img src="/./shoes.jfif" alt="">
+    <p>500</p>
+    <button onclick="addToCart ('shoes',500)"add>add</button>
+</div>
+<div class="product">
+    <h3>mobile</h3>
+    <img src="/sada.jfif" alt="">
+    <p>30000</p>
+    <button onclick="addToCart ('mobile',30000)">add</button>
+</div>
+ </div>
+   
+
+<div id="cart">
+    <h1>cart</h1>
+    <div id="cartitems"></div>
+    <h3>Total: <span id="total">0</span></h3>
+    
+    <button class="checkout" onclick="placeOrder()">place order</button>
+    <p id="message"></p>
+</div>
+
+    
+<!-- <div class="overlay" id="overlay">
+  <div class="popup">
+    <h3>🧾 Your Order Placed!</h3>
+    <p>Total Bill: 1500</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div> -->
+<script src="abd.js"></script>
+</body>
+</html>
